@@ -1,3 +1,4 @@
+// i think i will be getting rid of all this
 export const BLOGPOSTS = [
     {
         id: 0,
