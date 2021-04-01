@@ -21,7 +21,7 @@ function App() {
           <div className="main">
             <Products />
           </div>
-          <div className="sidebar">sidebar</div>
+          <div className="sidebar">Cart Items</div>
         </div>
       </main>
       <footer>

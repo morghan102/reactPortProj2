@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import formatCurrency from './util.js'
 import { PRODUCTS } from '../shared/products';
 
 export default function Products() {
@@ -44,7 +45,7 @@ export default function Products() {
                             </a>
                             <div className="productPrice">
                                 <div>
-                                    {product.price}
+                                    {formatCurrency(product.price)}
                                 </div>
                                 <button className="button primary">
                                     Add to cart
