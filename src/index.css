@@ -121,3 +121,10 @@ footer {
 .button.primary {
   background-color: #f0c040;
 }
+/* filter component */
+.filter {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: .1rem #c0c0c0 solid;
+}

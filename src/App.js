@@ -1,4 +1,5 @@
 import React from 'react';
+import Filter from './components/Filter';
 import Products from './components/Products';
 // import data from "./data.json";
 
@@ -11,6 +12,7 @@ import Products from './components/Products';
 // THIS WORKS, W/O IMPORTING AND W HEADERS: {}
 function App() {  
 
+  
   return (
     <div className="grid-contatiner">
       <header>
@@ -19,6 +21,7 @@ function App() {
       <main>
         <div className="content">
           <div className="main">
+            <Filter />
             <Products />
           </div>
           <div className="sidebar">Cart Items</div>
